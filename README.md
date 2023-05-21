@@ -11,3 +11,7 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+This CRUD Api allows users to create, read, update and delete the NFTS.
+This application uses a server developed in express which is integrated with a solidity file through etherjs to store data on the blockchain.
+Also I have used hardhat.
